@@ -101,3 +101,12 @@ body {
 img {
   border-radius: 20px;
 }
+
+.timetag {
+  font-size: 3vw;
+  color: #767676;
+}
+
+b {
+  font-weight: 700;
+}
