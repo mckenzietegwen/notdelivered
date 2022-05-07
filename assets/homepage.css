@@ -1,0 +1,132 @@
+section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		"r1c1 r1c1 r1c1 r1c1"
+		"r1c1 r1c1 r1c1 r1c1"
+    "r3c1 r3c2 r3c3 r3c3"
+    "r4c1 r4c2 r3c3 r3c3"
+    "r5c1 r5c2 r5c3 r5c4"
+    "r6c1 r6c2 r6c3 r6c4"
+    "r7c1 r7c2 r7c3 r7c4"
+    "r8c1 r8c2 r8c3 r8c4";
+    margin: 64px 24px 24px 24px;
+    height: 100vh;
+    gap: 36px 28px;
+}
+
+div:first-child {
+	grid-area: r1c1;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(2) {
+	grid-area: r3c1;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(3) {
+	grid-area: r3c2;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(4) {
+	grid-area: r4c1;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(5) {
+	grid-area: r4c2;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(6) {
+	grid-area: r3c3;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+div:nth-child(7) {
+	background-color: green;
+	grid-area: r5c1;
+}
+
+div:nth-child(8) {
+	background-color: green;
+	grid-area: r5c2;
+}
+
+div:nth-child(9) {
+	background-color: green;
+	grid-area: r5c3;
+}
+
+div:nth-child(10) {
+	background-color: green;
+	grid-area: r5c4;
+}
+
+div:nth-child(11) {
+	background-color: green;
+	grid-area: r6c1;
+}
+
+div:nth-child(12) {
+	background-color: green;
+	grid-area: r6c2;
+}
+
+div:nth-child(13) {
+	background-color: green;
+	grid-area: r6c3;
+}
+
+div:nth-child(14) {
+	background-color: green;
+	grid-area: r6c4;
+}
+
+div:nth-child(15) {
+	background-color: green;
+	grid-area: r7c1;
+}
+
+div:nth-child(16) {
+	background-color: green;
+	grid-area: r7c2;
+}
+
+div:nth-child(17) {
+	background-color: green;
+	grid-area: r7c3;
+}
+
+div:nth-child(18) {
+	background-color: green;
+	grid-area: r7c4;
+}
+
+div:nth-child(19) {
+	background-color: green;
+	grid-area: r8c1;
+}
+
+div:nth-child(20) {
+	background-color: green;
+	grid-area: r8c2;
+}
+
+div:nth-child(21) {
+	background-color: green;
+	grid-area: r8c3;
+}
+
+div:nth-child(22) {
+	background-color: green;
+	grid-area: r8c4;
+}
