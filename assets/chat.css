@@ -1,6 +1,9 @@
 body {
   font-family: helvetica;
   margin: 24px;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #chapternum {
@@ -17,7 +20,7 @@ body {
 }
 
 div {
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .recipient {
@@ -52,3 +55,11 @@ hr {
   width: 3%;
   opacity: 50%;
 }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
