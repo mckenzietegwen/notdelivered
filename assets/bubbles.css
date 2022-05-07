@@ -105,8 +105,25 @@ img {
 .timetag {
   font-size: 3vw;
   color: #767676;
+  padding-top: 100px;
 }
 
 b {
   font-weight: 700;
+}
+
+#toparrow {
+  width: 3%;
+  opacity: 50%;
+  margin-top: 24px;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+#header {
+  padding-bottom: 10px;
+  position: fixed;
+  z-index: 999999;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
 }

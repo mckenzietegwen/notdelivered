@@ -3,8 +3,14 @@ body {
   margin: 24px;
 }
 
+#chapternum {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1982FC;
+}
+
 #chaptertitle {
-  margin-top: 80px;
   font-size: 30px;
   font-weight: 700;
   color: #1982FC;
@@ -40,4 +46,9 @@ hr {
   border: .5px solid #767676;
   opacity: 50%;
   margin-bottom: 5px;
+}
+
+#toparrow {
+  width: 3%;
+  opacity: 50%;
 }
