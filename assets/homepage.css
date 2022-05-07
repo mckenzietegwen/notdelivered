@@ -10,15 +10,19 @@ section {
     "r6c1 r6c2 r6c3 r6c4"
     "r7c1 r7c2 r7c3 r7c4"
     "r8c1 r8c2 r8c3 r8c4";
-    margin: 64px 24px 24px 24px;
+    margin: 3vw;
     height: 100vh;
-    gap: 32px 16px;
+    gap: 2vw 2vw;
 }
 
 div:first-child {
 	grid-area: r1c1;
   border-radius: 20px;
   border-style: solid;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  min-height: 100px;
 }
 
 div:nth-child(2) {
