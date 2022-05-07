@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica;
+  margin: 24px;
+}
+
+#chaptertitle {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1982FC;
+}
+
+div {
+  padding-left: 24px;
+}
+
+.recipient {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.firstmessage {
+  font-size: 15px;
+  font-weight: 100;
+  color: #767676;
+}
+
+li {
+  display: inline-block;
+}
+
+li:last-child {
+  float:right;
+  font-size: 15px;
+  color: #767676;
+  font-weight: 500;
+}
+
+hr {
+  border: .5px solid #767676;
+  opacity: 50%;
+  margin-bottom: 5px;
+}
