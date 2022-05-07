@@ -1,169 +1,71 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 section {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-areas:
-		"r1c1 r1c1 r1c1 r1c1"
-		"r1c1 r1c1 r1c1 r1c1"
-    "r3c1 r3c2 r3c3 r3c3"
-    "r4c1 r4c2 r3c3 r3c3"
-    "r5c1 r5c2 r5c3 r5c4"
-    "r6c1 r6c2 r6c3 r6c4"
-    "r7c1 r7c2 r7c3 r7c4"
-    "r8c1 r8c2 r8c3 r8c4";
+		"chap1 chap1 chap1 ."
+		"chap1 chap1 chap1 chap3"
+    ". chap2 chap2 chap3"
+    ". chap4 chap4 chap4"
+    ". chap4 chap4 chap4";
     margin: 3vw;
-    height: 100vh;
-    gap: 2vw 2vw;
+    gap: 2vw;
+    width: 90vw;
+    height: 92vh;
+    overflow: hidden;
 }
 
 div:first-child {
-	grid-area: r1c1;
+	grid-area: chap1;
   border-radius: 20px;
-  border-style: solid;
-  text-align: center;
+  /* border-style: solid; */
   position: relative;
   vertical-align: middle;
-  min-height: 100px;
+  background: #1982FC;
+  text-align: center;
 }
 
 div:nth-child(2) {
-	grid-area: r3c1;
+	grid-area: chap2;
   border-radius: 20px;
-  border-style: solid;
+  /* border-style: solid; */
+  position: relative;
+  vertical-align: middle;
+  background: #5BC236;
+  text-align: center;
+  position: relative;
 }
 
 div:nth-child(3) {
-	grid-area: r3c2;
+	grid-area: chap3;
   border-radius: 20px;
-  border-style: solid;
+  /* border-style: solid; */
+  position: relative;
+  vertical-align: middle;
+  background: #1982FC;
+  text-align: center;
+  position: relative;
 }
 
 div:nth-child(4) {
-	grid-area: r4c1;
+	grid-area: chap4;
   border-radius: 20px;
-  border-style: solid;
-  background: #1982FC;
+  /* border-style: solid; */
+  background: #5BC236;
+  vertical-align: middle;
   text-align: center;
   position: relative;
-  vertical-align: middle;
-}
-
-div:nth-child(5) {
-	grid-area: r4c2;
-  border-radius: 20px;
-  border-style: solid;
-  background: #43CC47;
-  text-align: center;
-  position: relative;
-  vertical-align: middle;
-}
-
-div:nth-child(6) {
-	grid-area: r3c3;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(7) {
-	grid-area: r5c1;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(8) {
-	grid-area: r5c2;
-  border-radius: 20px;
-  border-style: solid;
-  background: #1982FC;
-  text-align: center;
-  position: relative;
-  vertical-align: middle;
-}
-
-div:nth-child(9) {
-	grid-area: r5c3;
-  border-radius: 20px;
-  border-style: solid;
-  background-color: #43CC47;
-  text-align: center;
-  position: relative;
-  vertical-align: middle;
-}
-
-div:nth-child(10) {
-	grid-area: r5c4;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(11) {
-	grid-area: r6c1;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(12) {
-	grid-area: r6c2;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(13) {
-	grid-area: r6c3;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(14) {
-	grid-area: r6c4;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(15) {
-	grid-area: r7c1;
-}
-
-div:nth-child(16) {
-	grid-area: r7c2;
-}
-
-div:nth-child(17) {
-	grid-area: r7c3;
-}
-
-div:nth-child(18) {
-	grid-area: r7c4;
-}
-
-div:nth-child(19) {
-	grid-area: r8c1;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(20) {
-	grid-area: r8c2;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(21) {
-	grid-area: r8c3;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-div:nth-child(22) {
-	grid-area: r8c4;
-  border-radius: 20px;
-  border-style: solid;
 }
 
 #one {
   position: absolute;
   font-family: helvetica;
   color: white;
-  font-size: 50px;
+  font-size: 35vh;
   font-weight: 700;
   width: 100%;
   height: 100%;
@@ -171,14 +73,14 @@ div:nth-child(22) {
   display: flex;
   align-items:center;
   justify-content:center;
-  transform: rotate(-180deg);
+  transform: rotate(200deg);
 }
 
 #two {
   position: absolute;
   font-family: helvetica;
   color: white;
-  font-size: 50px;
+  font-size: 5vh;
   font-weight: 700;
   width: 100%;
   height: 100%;
@@ -193,13 +95,13 @@ div:nth-child(22) {
   position: absolute;
   font-family: helvetica;
   color: white;
-  font-size: 50px;
+  font-size: 15vh;
   font-weight: 700;
   width: 100%;
   height: 100%;
   left: 0px;
   display: flex;
-  align-items:center;
+  align-items:top;
   justify-content:center;
 }
 
@@ -207,13 +109,13 @@ div:nth-child(22) {
   position: absolute;
   font-family: helvetica;
   color: white;
-  font-size: 50px;
+  font-size: 35vh;
   font-weight: 700;
   width: 100%;
   height: 100%;
   left: 0px;
   display: flex;
-  align-items:center;
+  align-items: bottom;
   justify-content:center;
-  transform: rotate(-180deg);
+  transform: rotate(-15deg);
 }
